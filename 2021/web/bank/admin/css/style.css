@@ -1,0 +1,76 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+
+header h1{
+    font-size: medium;
+}
+
+header ul{
+    display: flex;
+    margin: 0px;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+header ul li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#container{
+    margin: 3rem;
+}
+
+#container > h1{
+    font-size: x-large;
+}
+
+#container table{
+    background-color: rgb(34, 0, 114);
+    border-spacing: 0px !important;
+    color: white;
+    width: 100%;
+}
+
+#container table thead td{
+    padding: 5px;
+}
+
+#table_item{
+    background-color: rgb(222, 242, 255);
+    color: black;
+    padding: 10px;
+}
+
+/* special items */
+.money{
+    background-color: rgb(213, 255, 128) !important;
+}
+.select{
+    background-color: rgb(255, 255, 255) !important;
+}
+#shell{
+    background-color: rgb(56, 56, 56);
+    color: whitesmoke;
+    padding: 30px;
+}

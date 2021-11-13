@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+#terminal_content{
+    display: flex;
+    width: 100%;
+}
+
+#terminal_output{
+    width: 60%;
+}
+
+#terminal_user{
+    color: greenyellow;
+}
+
+input{
+    border: none;
+    color: whitesmoke;
+    background-color: transparent;
+    width: 100%;
+}
