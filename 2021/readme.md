@@ -1,10 +1,3 @@
+# PWNChallange 2021
 
-
-
-=============================
-|
-|   # PWNChallange 2021
-|
-=============================
-
-msfconsole $ dbnmap -sC -sV -T5 --open -v -oA pwnchallange
+Challanges from 2021
